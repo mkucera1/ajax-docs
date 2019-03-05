@@ -142,7 +142,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 	        dock.Dock(RadDockZone1)
 	    End Sub
 	
-	>tip If you want the dynamically created **RadDock** controls to store additional information, you can use the **Tag** property to save that information. For an example that uses this technique, see [Adding Controls Inside Dynamically Created Docks]({%slug dock/how-to/adding-controls-inside-dynamically-created-docks%}).
+	>tip If you want the dynamically created **RadDock** controls to store additional information, you can use the **Tag** property to save that information. For an example that uses this technique, see [Adding Controls Inside Dynamically Created Docks](https://docs.telerik.com/devtools/aspnet-ajax/controls/dock/how-to/adding-controls-inside-dynamically-created-docks).
 
 1. Run the application. Note that you never have more than one **RadDock** control. This is because the dynamically created controls disappear from the page whenever there is a postback, such as when the button **Click** event occurs. You must re-create these controls every time the page loads.
 
